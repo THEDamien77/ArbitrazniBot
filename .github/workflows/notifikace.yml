@@ -1,9 +1,8 @@
 name: Odesílání notifikací
 
 on:
-  workflow_dispatch:  # Přidá možnost ručního spuštění
   schedule:
-    - cron: "0 * * * *"  # Automatické spuštění každou hodinu
+   - cron: "0 19 * * *"  
 
 jobs:
   run-script:
